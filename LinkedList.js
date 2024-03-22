@@ -25,11 +25,11 @@ function check(head, X) {
   return false;
 }
 
-// if (check(node1, 42)) {
-//   console.log("yes");
-// } else {
-//   console.log("no");
-// }
+if (check(node1, 42)) {
+  console.log("yes");
+} else {
+  console.log("no");
+}
 
 // check if an element present in a linkedlist (Recursive Approach):
 function Check(head, X) {
@@ -41,11 +41,11 @@ function Check(head, X) {
   return Check(head.next, X);
 }
 
-// if (Check(node1, 11)) {
-//   console.log("Present");
-// } else {
-//   console.log("Absent");
-// }
+if (Check(node1, 11)) {
+  console.log("Present");
+} else {
+  console.log("Absent");
+}
 
 //Find Length of a Linked List (Iterative)
 
@@ -60,7 +60,7 @@ function CheckLengthIterative(head) {
   }
   console.log(count);
 }
-//CheckLengthIterative(node1)
+CheckLengthIterative(node1)
 
 //Find Length of a Linked List (Recursive)
 function CheckLengthRecursive(head) {
@@ -68,7 +68,7 @@ function CheckLengthRecursive(head) {
 
   return 1 + CheckLengthRecursive(head.next);
 }
-//console.log(CheckLengthRecursive(node1))
+console.log(CheckLengthRecursive(node1))
 
 // Reverse a Linked List  (Iterative)
 function ReverseLinkedList(head) {
